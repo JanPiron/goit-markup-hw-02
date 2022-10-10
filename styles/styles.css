@@ -53,10 +53,15 @@ background: #FFFFFF
         line-height: 1.6;
         /* text-align: center; */
         letter-spacing: 0.03em;
+        font-family: inherit;
 }
 .list-button:hover {
 background: #2196F3;
 }
+.list-button:focus {
+    background: #2196F3;
+}
+
 .current-side-button {
     background: #2196F3;
     color: #FFFFFF;
@@ -64,6 +69,7 @@ background: #2196F3;
     font-weight: 500;
         font-size: 16px;
         line-height: 1.6;
+        font-family: inherit;
 }
 
 .logo:focus {
@@ -75,9 +81,7 @@ background: #2196F3;
 
 }
 
-.list-button:focus {
-    background: #2196F3;
-}
+
 
 .footer-item {
         font-size: 14px;
