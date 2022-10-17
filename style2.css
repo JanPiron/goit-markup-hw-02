@@ -1,0 +1,77 @@
+
+.header-wrapper {
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    flex-grow: 0;
+    padding: 5px;
+    border:5px dashed red;
+    flex-direction:row;
+    
+}
+
+.logo-item {
+    cursor:pointer;
+    
+}
+.logo-item:hover {
+    transition:all 0.5sec;
+    filter:invert(50%);
+}
+.logo-button {
+    background-image: url("https://image.shutterstock.com/image-vector/phoenix-logo-icon-vector-template-260nw-1892584900.jpg");
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: 90% 90%;
+}
+
+
+.menu li {
+    font-size: 24px;
+    font-weight: bold;
+    color:purple;
+    cursor:pointer;
+    transition: color 0.25s;
+    
+
+}
+
+.menu li:hover {
+    color:green;
+}
+
+/* .menu li:nth-child(1){
+order: 4;
+align-self:flex-end;
+}
+
+.menu li:nth-child(2) {
+order:2;
+}
+
+.menu li:nth-child(3) {
+order:3;
+}
+
+.menu li:nth-child(4) {
+order: 1;
+} */
+
+.menu {
+    display:flex;
+    flex-wrap: wrap;
+    list-style:none;
+    flex-direction:row;
+    flex-grow: 1;
+    max-width:50%;
+    justify-content:space-between;
+    
+}
+
+.login-block {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}

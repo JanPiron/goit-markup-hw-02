@@ -9,6 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.css">
 
     <title>Studio</title>
     <link rel="stylesheet" href="./styles/styles.css">
@@ -16,25 +17,29 @@
 
 <body>
 
-<header>
-    <nav>
+<header class="container header-box">
+    <nav class="navigator">
         <a class="logo" href="http://127.0.0.1:5500/portfolio.html#">Web<span class="logo-colour2">Studio</span></a>
         <a class="header-item current-side-item" href="">Agencja</a>
         <a class="header-item" href="http://127.0.0.1:5500/portfolio.html#">Portfolio</a>
         <a class="header-item" href="">Kontakt</a>
+    
+    
+    <div class="header-div">
+        <a class="header-item" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a class="header-item" href="tel:+48111111111">+48 111 111 111</a>
+    </div>
     </nav>
-    <a class="header-item" href="mailto:info@devstudio.com">info@devstudio.com</a>
-    <a class="header-item" href="tel:+48111111111">+48 111 111 111</a>
 </header>
 
 
     <main>
-        <div class="primary">
+        <section class="primary">
         <h1 class="primary-item">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
         <button type="button" class="current-side-button">Zamów usługe</button>
-        </div>
+        </section>
         
-        <ul>
+        <ul class="container menu1">
             <li>
                 <h4 class="fourth-header">LOREM IPSUM</h4>
                 <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
@@ -58,12 +63,12 @@
             </li>
         </ul>
 
-    <section>
+    <section class="container ">
             <h2 class="header-secondary"><b>Czym się zajmujemy?</b></h2>
-        <ul>
+            
+        <ul class="menu2">
             <li>
                 <figure>
-            
                 <img src="./images/img1.jpg"
                  alt="Praca programisty na komputerze"
                  width="370"
@@ -71,6 +76,7 @@
                  >
                 </figure>
             </li>
+            
             <li>
                 <figure>
                 <img src="./images/img2.jpg"
@@ -93,9 +99,9 @@
         </ul>
     </section>
 
-    <section>
+    <section class="container">
         <h2 class="header-secondary"><b>Nasz Zespół</b></h2>
-        <ul>
+        <ul class="menu3">
             <li>
                 <figure>
                     <img src="./images/box1.jpg"
