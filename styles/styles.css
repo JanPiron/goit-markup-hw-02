@@ -295,27 +295,12 @@ background: #2196F3;
 }
 
 .section {
-    margin-bottom: 94px;
-    margin-top: 94px;
+    padding-bottom: 94px;
+    padding-top: 94px;
 }
-
-.footer-list-item-first {
+.footer-logo {
     padding-top: 60px;
-    padding-right: 1240px;
-    padding-bottom:20px;
-}
-.footer-list-item-second {
-    
-    padding-right:1139px;
-    padding-bottom: 9px;
-}
-.footer-list-item-third {
-    padding-right:1154px;
-    padding-bottom: 9px;
-}
-.footer-list-item-fourth {
-    padding-right: 1154px;
-    padding-bottom:60px;
+    padding-bottom: 20px;
 }
 
 
